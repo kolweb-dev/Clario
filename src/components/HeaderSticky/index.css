@@ -1,0 +1,20 @@
+.header-sticky{
+    /* max-width: 320px; */
+    position: fixed;
+    background-color: #fff;
+    z-index: 50;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 17px 0;
+    min-width: 100%;
+  }
+  .header-sticky img{
+    height: 22px;
+    width: 80px;
+  }
+  .header-sticky_ref{
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: 700;
+  }

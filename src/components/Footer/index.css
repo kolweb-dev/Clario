@@ -1,0 +1,12 @@
+.footer{
+    padding: 20px 24px;
+    text-align: center;
+}
+.footer__logo{
+    margin-bottom: 10px;
+}
+
+.footer__text{
+    font-size: 14px;
+    line-height: 18px;
+}

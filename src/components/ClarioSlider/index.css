@@ -1,0 +1,114 @@
+.clarioSlider {
+    margin-bottom: 50px;
+    background-color: dark;
+    overflow-x: hidden;
+}
+
+.sample {
+    margin: 0 auto;
+}
+.slider-card.slide-blue{
+    
+}
+
+.slider-card.slide-green{
+    color: #305938;
+    background-color: #EAF5E4;
+}
+
+ .slider-card {
+    color: #3D317C;
+    background-color: #EFF1FF;
+    border-radius: 20px;
+    padding: 40px 24px;
+    height: 339px;
+    width: 230px !important;
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.slick-slide{
+    height: auto !important;
+}
+
+.sample .slick-slide {
+    margin-right: 10px;
+  }
+  
+  .sample .slick-list {
+    margin: 0 -10px;
+  }
+
+.slick-track {
+    width: auto;
+    left: -50px;
+}
+
+.slider-card__logo{
+    margin-bottom: 30px;
+}
+
+.slider-card__author{
+    margin-top: auto;
+}
+.slick-prev{
+    content: '';
+    background-image: url('../../assets/icons/ArrowLeft.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 48px;
+    width: 48px;
+    z-index: 22;
+    left: 120px;
+    top: 89%;
+    border-radius: 50%;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+.slick-prev::before, .slick-next::before{
+    font-size: 0;
+}
+.slick-next{
+    content: '';
+    background-image: url('../../assets/icons/ArrowNext.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 48px;
+    width: 48px;
+    background-repeat: no-repeat;
+    z-index: 22;
+    left: 180px;
+    top: 89%;
+    border-radius: 50%;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.slick-list{
+    padding-bottom: 50px !important;
+}
+
+.slick-prev:hover, .slick-prev:focus{
+    background-image: url('../../assets/icons/ArrowLeft.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 48px;
+    width: 48px;
+    background-color: #fff;
+}
+ .slick-next:hover, .slick-next:focus {
+    background-image: url('../../assets/icons/ArrowNext.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 48px;
+    width: 48px;
+    background-color: #fff;
+}
+
+.clarioSlider__title{
+    padding: 40px 32px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+}

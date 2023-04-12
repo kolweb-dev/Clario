@@ -1,0 +1,32 @@
+.clarioSolvePropblems {
+    width: 100%;
+    padding: 33px 0 50px 0;
+    background-image: linear-gradient(180deg, #FFFFFF 29.01%, #F4F9FF 80.52%);
+    text-align: center;
+}
+
+.clarioSolvePropblems__title {
+    padding: 0 20px;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.clarioSolvePropblems__text {
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #151D51;
+    margin-bottom: 24px;
+}
+
+.clarioSolvePropblems img {
+    margin-bottom: 47px;
+}
+
+.clarioSolvePropblems__link {
+    padding: 10px 33px;
+    font-weight: 700;
+    font-size: 16px;
+}

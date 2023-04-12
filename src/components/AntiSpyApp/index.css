@@ -1,0 +1,95 @@
+.antiSpyApp{
+    padding: 54px 24px 50px 24px;
+    background-color: #EFF1FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.antiSpyApp__title{
+    margin-top: 160px;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #151D51;
+    margin-bottom: 10px;
+}
+
+.antiSpyApp__title span{
+    color: #483FDD;
+}
+
+.antiSpyApp__clario{
+    text-align: center;
+    color: #151D51;
+    font-size: 16px;
+    line-height: 20px;
+    opacity: 0.7;
+    margin-bottom: 35px;
+}
+
+.antiSpyApp__link{
+    margin-top: 35px;
+    padding: 10px 60px;
+    margin: 0 auto;
+}
+
+.antiSpyApp__devices{
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.antiSpyApp__devices div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.antiSpyApp__devices div + div{
+    margin-left: 5px;
+}
+.antiSpyApp__devices img{
+    margin-right: 5px;
+}
+
+.antiSpyApp__spyware{
+    border-radius: 14px;
+    margin-bottom: 35px;
+}
+
+
+.antiSpyApp__advantages-title{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 14px;
+    
+}
+
+.advantages__list{
+    list-style: none;
+}
+.advantages__list-li{
+    margin-bottom: 12px;
+    position: relative;
+    margin-left: 35px;
+}
+
+.advantages__list-li::before{
+    content: "";
+    position: absolute;
+    left: -24px;
+    top: 3px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('../../assets/icons/checked.svg');
+}

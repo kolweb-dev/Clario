@@ -1,0 +1,21 @@
+.phoneSpyProtection{
+    padding: 70px 24px;
+}
+
+.phoneSpyProtection__title{
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.phoneSpyProtection__title span{
+    color: #483FDD;
+}
+
+.clarioSolvePropblems__link.phoneSpyProtection-btn{
+    width: 100%;
+    padding: 10px 60px;
+    font-size: 18px;
+}

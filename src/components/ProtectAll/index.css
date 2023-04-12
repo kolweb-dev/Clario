@@ -1,0 +1,23 @@
+.protectAll{
+    padding: 32px 25px;
+    background-color: #EFF1FF;
+}
+
+.protectAll__title{
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.protectAll__text{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #151D51;
+}
+
+.protectAll > .antiSpyApp__devices{
+    margin-top: 10px;
+}

@@ -1,0 +1,139 @@
+.spyFreeWeek {
+    background-color: #483FDD;
+    padding-bottom: 38px;
+}
+
+.spyFreeWeek-img {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.spyFreeWeek__container {
+    padding: 0 24px;
+    /* max-width: 320px; */
+    /* margin: 0 auto; */
+}
+
+.spyFreeWeek-title {
+    color: #fff;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.spyFreeWeek__card {
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 16px;
+}
+
+.spyFreeWeek__card-timer {
+    background-color: #FFF2EB;
+    border-radius: 4px;
+    height: 25px;
+    /* width: 224px; */
+    padding: 4px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.spyFreeWeek__card-timer span {
+    font-size: 11px;
+    line-height: 18px;
+    color: #DF723A;
+}
+
+.spyFreeWeek__card-timer div {
+    color: #DF723A;
+    margin-left: auto;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.spyFreeWeek__card-timer div span {
+    margin-left: 4px;
+    font-weight: 400;
+}
+
+.spyFreeWeek__card-price {
+    background-color: #F2F8FF;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.card-price {
+    position: relative;
+    color: #483FDD;
+}
+
+.card-price__num {
+    font-size: 80px;
+    line-height: 64px;
+    font-weight: 700;
+}
+
+.card-price__currency {
+    position: absolute;
+    left: -30px;
+    top: -13px;
+    font-size: 42px;
+    font-weight: 700;
+    /* line-height: 28px; */
+}
+
+.card-price__rest {
+    position: absolute;
+    right: -27px;
+    top: -13px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card-price__week {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-left: 5px;
+    color: #6C96CE;
+}
+
+.spyFreeWeek__list>.clarioHelpInfo__list-li {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.clarioHelpInfo__list.spyFreeWeek__list {
+    margin-bottom: 42px;
+}
+
+.spyFreeWeek__link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 13px 0;
+    font-weight: bold;
+    border-radius: 70px;
+    margin-bottom: 16px;
+}
+
+.spyFreeWeek__info {
+    text-align: center;
+    font-size: 9px;
+    line-height: 12px;
+    color: #151D51;
+    margin-bottom: 20px;
+}
+
+.features__list>.clarioHelpInfo__list-li {
+    font-size: 10px;
+    line-height: 14px;
+}
